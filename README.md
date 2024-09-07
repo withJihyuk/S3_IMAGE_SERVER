@@ -13,6 +13,3 @@ export S3_REGION=(본인의 값)
 pip install -r requirements.txt
 python3 main.py
 ```
-
-### To-Do
-- 이미지 이름 랜덤화 및 리턴
