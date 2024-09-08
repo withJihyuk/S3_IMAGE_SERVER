@@ -36,7 +36,7 @@ def upload_images(file: UploadFile):
         Key=f"{file_name}.webp",
         ContentType="image/*",
     )
-    return JSONResponse({"result": "success", "file_name": file_name})
+    return JSONResponse({"message": "업로드에 성공 했습니다.", "file_name": file_name})
 
 
 if __name__ == "__main__":
